@@ -26,6 +26,10 @@ html {
 	background-color: white;
 }
 
+#introhighlight {
+	font-weight: 900;
+}
+
 #landingtext1 {
   font-family: "Roboto Medium", monospace;
   font-weight: 900;
@@ -92,7 +96,7 @@ html {
 
 #contactbox {
 	background-color: #000000;
-	border-radius: 25px;
+	border-radius: 50px;
 	font-family:  "Roboto", monospace;
 	color: white;
 	padding-left: 10%;
