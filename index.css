@@ -1,5 +1,5 @@
 * {
-	font-family: "Roboto", IBM Plex Sans;
+	font-family: "Roboto", monospace;
 	font-size: 15px;
 }
 
@@ -11,12 +11,12 @@ html {
 /*NAVBAR HERE*/
 
 #navbar1 {
-	font-family: "Roboto Medium", Arial Narrow;
+	font-family: "Roboto Medium", monospace;
 	color: black;
 }
 
 #navbar2 {
-	font-family: "Roboto Medium", Arial Narrow;
+	font-family: "Roboto Medium", monospace;
 	color: black;
 }
 
@@ -27,13 +27,13 @@ html {
 }
 
 #landingtext1 {
-  font-family: "Roboto Medium", Arial Narrow;
+  font-family: "Roboto Medium", monospace;
   font-weight: 900;
   color: black;
 }
 
 #landingtext2 {
-	font-family: "Poppins", IBM Plex Sans;
+	font-family: "Poppins", monospace;
 	font-size: 30px;
 	font-style: italic;
 }
@@ -45,7 +45,7 @@ html {
 }
 
 #abouttext1 {
-	font-family:  "Roboto Medium", IBM Plex Sans;
+	font-family:  "Roboto Medium", monospace;
 	font-size: 60px;
 	font-weight: 900;
 	font-style: italic;
@@ -54,12 +54,12 @@ html {
 }
 
 #abouttext2 {
-	font-family: "Roboto Light", IBM Plex Sans;
+	font-family: "Roboto Light", monospace;
 	font-size: 20px;
 }
 
 .paragraph-about-me  {
-	font-family: "Roboto Light", Arial Narrow;
+	font-family: "Roboto Light", monospace;
 	font-size: 15px;
 }
 
@@ -71,7 +71,7 @@ html {
 /*PROJECTS HERE*/
 
 #projecttext1 {
-	font-family:  "Roboto Medium", Arial Narrow;
+	font-family:  "Roboto Medium", monospace;
 	font-size: 60px;
 	font-weight: 900;
 	font-style: italic;
@@ -82,7 +82,7 @@ html {
 /*CONTACT HERE*/
 
 #contacttext1 {
-	font-family:  "Roboto Medium", Arial Narrow;
+	font-family:  "Roboto Medium", monospace;
 	font-size: 60px;
 	font-weight: 900;
 	font-style: italic;
@@ -93,7 +93,7 @@ html {
 #contactbox {
 	background-color: #000000;
 	border-radius: 25px;
-	font-family:  "Roboto", Arial Narrow;
+	font-family:  "Roboto", monospace;
 	color: white;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -140,6 +140,6 @@ html {
 }
 
 #footertext1 {
-	font-family: "Roboto Medium", Arial Narrow;
+	font-family: "Roboto Medium", monospace;
 	color: black;
 }
