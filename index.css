@@ -1,5 +1,5 @@
 * {
-	font-family: "Roboto", monospace;
+	font-family: "Roboto", IBM Plex Sans;
 	font-size: 15px;
 }
 
@@ -8,40 +8,58 @@ html {
   font-size: 1rem;
 }
 
-#name1 {
-	font-family: "Roboto Medium", monospace;
+/*NAVBAR HERE*/
+
+#navbar1 {
+	font-family: "Roboto Medium", Arial Narrow;
 	color: black;
 }
+
+#navbar2 {
+	font-family: "Roboto Medium", Arial Narrow;
+	color: black;
+}
+
+/*LANDING SECTION HERE*/
+
+#carlo-corcuera {
+	background-color: white;
+}
+
+#landingtext1 {
+  font-family: "Roboto Medium", Arial Narrow;
+  font-weight: 900;
+  color: black;
+}
+
+#landingtext2 {
+	font-family: "Poppins", IBM Plex Sans;
+	font-size: 30px;
+	font-style: italic;
+}
+
+/*ABOUT SECTION HERE*/
 
 #section-2 {
 	background: white;
 }
 
-#about-me {
-	font-family: "Roboto Medium", monospace;
+#abouttext1 {
+	font-family:  "Roboto Medium", IBM Plex Sans;
+	font-size: 60px;
+	font-weight: 900;
+	font-style: italic;
 	color: black;
+	text-decoration: underline;
 }
 
-#projects {
-	font-family: "Roboto Medium", monospace;
-}
-
-#contact-us {
-	font-family: "Roboto Medium", monospace;
-}
-
-#dev1 {
-	font-family: "Poppins", monospace;
-	font-size: 30px;
-}
-
-#paragraph-about-me-subtitle {
-	font-family: "Roboto Light", monospace;
+#abouttext2 {
+	font-family: "Roboto Light", IBM Plex Sans;
 	font-size: 20px;
 }
 
 .paragraph-about-me  {
-	font-family: "Roboto Light", monospace;
+	font-family: "Roboto Light", Arial Narrow;
 	font-size: 15px;
 }
 
@@ -50,44 +68,32 @@ html {
 	font-style: italic;
 }
 
+/*PROJECTS HERE*/
 
-#intro {
+#projecttext1 {
+	font-family:  "Roboto Medium", Arial Narrow;
+	font-size: 60px;
 	font-weight: 900;
 	font-style: italic;
+	color: black;
+	text-decoration: underline;
 }
 
-#about-me-1 {
-	font-family:  "Roboto", monospace;
-	font-size: 100px;
-	font-weight: 500;
-	font-style: italic;
+/*CONTACT HERE*/
 
-}
-
-#card-1 {
-    margin-top: 20px;
-	min-height: 20vh;
-}
-
-#projects-made-1 {
-	font-size: 5vw;
-	font-family:  "Roboto", monospace;
+#contacttext1 {
+	font-family:  "Roboto Medium", Arial Narrow;
+	font-size: 60px;
 	font-weight: 900;
-	text-align: center;
 	font-style: italic;
+	color: black;
+	text-decoration: underline;
 }
 
-#contact-me {
-	font-size: 5vw;
-	font-family:  "Roboto", monospace;
-	font-weight: 900;
-	text-align: center;
-	font-style: italic;
-}
-
-#pre-footer {
+#contactbox {
 	background-color: #000000;
-	font-family:  "Roboto", monospace;
+	border-radius: 25px;
+	font-family:  "Roboto", Arial Narrow;
 	color: white;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -95,43 +101,45 @@ html {
 	padding-bottom: 2rem;
 }
 
-#pre-footer .card {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-left: 0.5rem;
-	margin-right:  0.5rem;
-}
-
-#pre-footer-1 {
-	font-family: Roboto;
+#contactboxtext1 {
+	font-family: "Roboto";
 	font-size: 50px;
+	color: white;
 }
 
-#contact-me-subtitle {
-	font-family: "Roboto Light", monospace;
-	font-size: 20px;
+#contactboxbutton1 {
+	font-family: "IBM Plex Sans";
+	border-radius: 10px;
+	margin: 10pt;
+	font-weight: bold;
+	color: white;
 }
 
-
-#contact-subtitle {
-	font-family: Poppins;
+#contactboxtext2 {
+	font-family: "IBM Plex Sans";
+	font-size: 15px;
+	font-style: italic;
 }
 
-#footer {
-	font-family:  "Roboto Medium", monospace;
-	text-align: center;
-}
-
-.linkedin {   
-background: #0e76a8;   
-color: white;   
-}         
-
-
-#footer2 {
-	font-family: "Roboto", monospace;
-	font-weight: 400;
+#contactboxbutton2 {
+	font-family: "IBM Plex Sans";
+	border-radius: 30px;
+	font-weight: bold;
 	color: black;
-	text-align: center;
+}
+
+#exampleModal {
+	font-family: "Roboto";
+	border-radius: 30px;
+}
+
+#modalbutton1 {
+	color: white;
+	font-family: "IBM Plex Sans";
+	border-radius: 30px;
+}
+
+#footertext1 {
+	font-family: "Roboto Medium", Arial Narrow;
+	color: black;
 }
