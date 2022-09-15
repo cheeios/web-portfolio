@@ -1,0 +1,143 @@
+* {
+	font-family: "Roboto", monospace;
+	font-size: 15px;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 1rem;
+}
+
+#name1 {
+	font-family: "Roboto Medium", monospace;
+	color: black;
+
+}
+
+#about-me {
+	font-family: "Roboto Medium", monospace;
+	color: black;
+}
+
+#projects {
+	font-family: "Roboto Medium", monospace;
+}
+
+#contact-us {
+	font-family: "Roboto Medium", monospace;
+}
+
+#dev1 {
+	font-family: "Poppins", monospace;
+	font-size: 30px;
+}
+
+#paragraph-about-me-subtitle {
+	font-family: "Roboto Light", monospace;
+	font-size: 20px;
+}
+
+.paragraph-about-me  {
+	font-family: "Roboto Light", monospace;
+	font-size: 15px;
+}
+
+#highlight {
+	font-weight: 900;
+	font-style: italic;
+}
+
+
+#intro {
+	font-weight: 900;
+	font-style: italic;
+}
+
+#about-me-1 {
+	font-family:  "Roboto", monospace;
+	font-size: 100px;
+	font-weight: 500;
+	font-style: italic;
+
+}
+
+#section-2 {
+	background-color: #eae8ff;
+}
+
+
+#card-1 {
+    margin-top: 20px;
+	min-height: 20vh;
+}
+
+#projects-made-1 {
+	font-size: 5vw;
+	font-family:  "Roboto", monospace;
+	font-weight: 900;
+	text-align: center;
+	font-style: italic;
+
+
+}
+
+#contact-me {
+	font-size: 5vw;
+	font-family:  "Roboto", monospace;
+	font-weight: 900;
+	text-align: center;
+	font-style: italic;
+}
+
+
+
+#pre-footer {
+	background-color: #000000;
+	font-family:  "Roboto", monospace;
+	color: white;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+#pre-footer .card {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-left: 0.5rem;
+	margin-right:  0.5rem;
+}
+
+#pre-footer-1 {
+	font-family: Roboto;
+	font-size: 50px;
+}
+
+#contact-me-subtitle {
+	font-family: "Roboto Light", monospace;
+	font-size: 20px;
+}
+
+
+#contact-subtitle {
+	font-family: Poppins;
+}
+
+#footer {
+	font-family:  "Roboto Medium", monospace;
+	text-align: center;
+}
+
+.linkedin {   
+background: #0e76a8;   
+color: white;   
+}         
+
+
+#footer2 {
+	font-family: "Roboto", monospace;
+	font-weight: 400;
+	color: black;
+	text-align: center;
+}
