@@ -18,8 +18,10 @@
 		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Poppins:ital,wght@1,200&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
 		<!-- CSS EXTERNAL LINK -->
-		<link rel="stylesheet" href="./index.css">		
+		<link rel="stylesheet" href="./index.css">
 
+		<!-- Animation -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	</head>
 	
 	<body>
@@ -55,7 +57,7 @@
 
 	<!-- LANDING PAGE STARTS HERE! -->
 
-				<div class="container-fluid min-vh-100 mt-5 p-md-5 container-fluid text-center" id="carlo-corcuera">
+				<div class="container-fluid min-vh-100 mt-5 p-md-5 container-fluid text-center" id="carlo-corcuera" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 
 						<a href="https://www.facebook.com/CorcueraCarlo/" target="_blank" ><img class="mt-5 rounded-circle" src="./image/img-carlo-corcuera.jpg" alt="Profile Picture of a Beautiful Individual" width="250"></a>
 
@@ -88,7 +90,7 @@
 			  <p id="abouttext2">carloicorcuera@gmail.com</p>
 			</div>
 
-			<div class="container text-justify">
+			<div class="container text-justify" data-aos="fade-up">
 			  <div class="row">
 			    <div class="col-sm-4 mt-0">
 			      <h3>Hobbies</h3>
@@ -104,7 +106,7 @@
 			    </div>
 			  </div>
 			  <div class="container pt-2">
-			  <div class="row">
+			  <div class="row" data-aos="fade-up-left">
 			    <div class="col-sm-6">
 			      <h3>Frontend Programming</h3>
 			      <p class="text-justify paragraph-about-me">I started to have knowledge of frontend programming during our senior high school days; <span id="highlight"> HTML-"Hello World"</span>. It was fascinating to see how powerful these computers are, and now that I'm currently equipping myself with knowledge about them, it makes me realize how important frontend really is. Not just in programming but also in life. As you find a job, it is necessary for you to have a wonderful front-end resume to present. We must learn and continue to improve the front end of ourselves and our lives too, so we do the same for our website as well.</p>
@@ -117,7 +119,7 @@
 			</div>
 
 			<div class="container">
-				<div class="row text-center">
+				<div class="row text-center" data-aos="fade-up-right">
 					<div class="card col-sm-6 my-2 mx-auto">
 						  <a href="https://www.linkedin.com/in/carlo-i-corcuera/" target="_blank"><img class="card-img-top img-fluid img-thumbnail" style="width: 5rem;" src="./image/linkedIn.png" alt="Card image"></a>
 						  <div class="card-body">
@@ -143,10 +145,10 @@
 
 	<!-- PROJECTS STARTS HERE! -->
 			<section class=" container-fluid min-vh-100 text-center" id="section-3">
-				<div class="text-center py-2 pt-5">
+				<div class="text-center py-2 pt-5" data-aos="flip-down">
 					<h2 id="projecttext1" class="col-md-12 text-center">PROJECTS</h2>
 				</div>
-							<div class="row d-md-block mt-md-5">
+							<div class="row d-md-block mt-md-5" data-aos="flip-up">
 		                        <div class="offset-xl-3 col-xl-6">
 		                            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 		                                <ol class="carousel-indicators">
@@ -179,12 +181,12 @@
 
 	<!-- CONTACT STARTS HERE! -->
 
-			<div class="text-center py-2">
+			<div class="text-center py-2" data-aos="flip-down">
 				<h2 id="contacttext1" class="col-md-12 text-center">CONTACT</h2>
 				<a id="contactboxbutton1" href="https://calendar.google.com/calendar/u/0/r/eventedit?state=%5B%5D" target="_blank" class="btn btn-dark mx-auto my-auto px-auto">Book a meeting</a>
 			</div>
 
-				<section id="contactbox" class="col-md-8 col-lg-10 mx-auto text-left">
+				<section id="contactbox" class="col-md-8 col-lg-10 mx-auto text-left" data-aos="flip-up">
 					<h2 id="contactboxtext1">Interested? Give it a call?<h2>
 					<h4 id="contactboxtext2">"Most people call me Carlo, but you can always call me anytime!" 😉</h4>
 		            <form>
@@ -244,5 +246,12 @@
 	<!-- Bootstrap JavaScript -->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>	
+
+	<!-- Animation Script -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+		  AOS.init();
+		</script>
+
 	</body>
 </html>
